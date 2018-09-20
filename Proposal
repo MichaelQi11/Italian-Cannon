@@ -1,0 +1,30 @@
+CMPUT 274
+
+Project Title: Italian Cannon
+
+Team members: Jiahui Wang 1497960 and Hongru Qi 1500246
+
+Description: Two arduino connected together and use a protocal to set a server and
+client. server will decide when the game will begin. when the game start, two people
+with cannon will show on both side, with health point above their head. the wind
+speed and direction will show in the up middle of the screen and change each round.
+Server will shoot first, use joystick to set the angle and initial speed of the
+bullet. Then press joystick to fire, if the bullet hit the enemy, the HP decrease.
+Then it's client player's round.
+
+
+Milestones:
+1.	Nov 17
+    write the protocal for set server and client, the start page of both machine
+    the start button and everything before game start.
+
+2.	Nov 24
+    draw cannon HP on both side, write the parabola algorithm for the bullet moving
+    add joystick in to change angle and initial speed
+
+3.	Nov 28
+    add wind speed in the game. add a wall in the middle.
+
+4.	Dec 2
+    add final state in the game(win or lose), go back to start page. improve
+    algorithm to increase the operating speed.
